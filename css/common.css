@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    background: linear-gradient(to bottom, rgb(128, 7, 7), rgb(56, 55, 55));
+}
 
 body h1{
     text-align: center;
@@ -39,6 +42,7 @@ li a{
     padding: 5px;
     display: inline-block;
     font: oblique bold 100% cursive;
+    background: linear-gradient(to bottom, rgb(11, 107, 40), white);
 }
 
 ul li{
@@ -52,10 +56,15 @@ nav ul{
 }
 
 footer {
+    margin-top: 1%;
     border: solid 2px #000000;
     padding: 2%;
     font: oblique bold 150% cursive;
     border-radius: 10%;
+    background: linear-gradient(to bottom, rgb(11, 107, 40), white);
+    margin-bottom: 1%;
+    width: 95%;
+    margin-left: 5px;
 }
 
 footer img{
